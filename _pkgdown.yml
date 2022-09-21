@@ -1,6 +1,9 @@
 url: ~
 template:
   bootstrap: 5
+  bootswatch: minty
+  bslib:
+    pkgdown-nav-height: 100px
 reference:
 - title: abc
   desc: >
