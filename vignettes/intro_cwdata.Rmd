@@ -1,0 +1,24 @@
+---
+title: "intro_cwdata"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{intro_cwdata}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+```{r setup}
+library(cwdata)
+```
+
+```{r}
+plot(cars)
+```
+
